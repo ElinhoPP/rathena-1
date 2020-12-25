@@ -9461,6 +9461,19 @@ Body:
       BuyingStore: true
     Script: |
       bonus bMatk,25;
+  - Id: 4558
+    AegisName: Woodie_Card
+    Name: Woodie Card
+    Type: Card
+    Buy: 20
+    Weight: 100
+    Locations:
+      Garment: true
+    Flags:
+      BuyingStore: true
+    Script: |
+      bonus2 bSubEle,Ele_Earth,20;
+      bonus3 bAutoSpellWhenHit,"PR_KYRIE",2,20;
   - Id: 4559
     AegisName: M_Morocc_Card
     Name: Evil Morocc Card
